@@ -53,6 +53,10 @@ const handleEqual = () => {
     );
   }
 };
+
+const handlePercent = () => {
+  display.value = String(Number(display.value) / 100);
+};
 </script>
 
 <template>
@@ -77,7 +81,7 @@ const handleEqual = () => {
       </div>
       <div
         class="w-24 h-24 bg-gray-500 flex justify-center items-center text-2xl rounded font-bold text-black"
-        @click="handleButtonClick('%')"
+        @click="handlePercent()"
       >
         %
       </div>
