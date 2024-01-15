@@ -46,7 +46,6 @@ const handleEqual = () => {
         : [...prev, current],
     [""]
   );
-  console.log(split);
   operators.forEach(([operator, funct]) => {
     for (let i = 1; i < split.length - 1; i++) {
       if (split[i] === operator) {
