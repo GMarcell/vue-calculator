@@ -57,34 +57,6 @@ const handleEqual = () => {
     }
   });
   display.value = String(split);
-  // for (let i = 0; i < operatorCount.value; i++) {
-  //   if (display.value.includes("/")) {
-  //     // ini distribution
-  //     const arrayProblem = display.value.split("/");
-  //     console.log(arrayProblem);
-  //     display.value = String(
-  //       (Number(arrayProblem[0]) / Number(arrayProblem[1])).toFixed(2)
-  //     );
-  //   } else if (display.value.includes("*")) {
-  //     // ini multiply
-  //     const arrayProblem = display.value.split("*");
-  //     display.value = String(
-  //       (Number(arrayProblem[0]) * Number(arrayProblem[1])).toFixed(2)
-  //     );
-  //   } else if (display.value.includes("+")) {
-  //     // ini plus
-  //     const arrayProblem = display.value.split("+");
-  //     display.value = String(
-  //       (Number(arrayProblem[0]) + Number(arrayProblem[1])).toFixed(2)
-  //     );
-  //   } else {
-  //     // ini minus
-  //     const arrayProblem = display.value.split("-");
-  //     display.value = String(
-  //       (Number(arrayProblem[0]) - Number(arrayProblem[1])).toFixed(2)
-  //     );
-  //   }
-  // }
 };
 
 const handlePercent = () => {
